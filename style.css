@@ -27,5 +27,7 @@ html, body {
   }
  h1, h2, h3 {
     color: rgba(255, 255, 255, 75%);
+    font-family: 'monospace', Courier, monospace; 
+    font-weight: bold;
  }
  

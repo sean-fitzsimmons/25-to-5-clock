@@ -78,7 +78,7 @@ const formatTime = (time) => {
     }; 
     return (
     <div className="center-align">
-        <h1>Pomodoro Clock</h1>
+        <h1>Productivity Clock</h1>
         <div className="dual-container"> 
         <Length title={"Break"} changeTime={changeTime} type={"break"} time={breakTime} formatTime={formatTime}/>
         <Length title={"Flow"} changeTime={changeTime} type={"session"} time={sessionTime} formatTime={formatTime}/>
